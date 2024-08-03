@@ -1,0 +1,51 @@
+.todoContainer {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 20px;
+  row-gap: 10px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 20px;
+  row-gap: 10px;
+  align-items: center;
+
+}
+
+#todo-input {
+  font-size: 15px;
+  padding: 10px 5px;
+}
+
+#todo-date {
+  font-size: 15px;
+  padding: 10px 5px;
+}
+
+.delete_button {
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.add_button {
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.todoApp {
+
+
+  width: 50%;
+}
